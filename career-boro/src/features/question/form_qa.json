@@ -1,0 +1,64 @@
+{
+    "What topics or activities are you most interested in exploring as a career?": {"type": "input", "placeholder": "E.g. Software Development"},
+    "What course are you currently taking?": {"type": "input", "placeholder":"E.g. Computer Science"},
+    "What matters most to you in a career? (Select all that applies)": {"type": "multiselect", "options": [
+        "High income",
+        "Fast promotions",
+        "Work-life balance",
+        "Flexibility",
+        "Making a positive impact",
+        "Recognition",
+        "Job stability",
+        "Creativity",
+        "Helping others",
+        "Learning new things",
+        "Leading teams"
+    ]},
+    "Which work environments do you prefer? (Select all that applies)": {"type": "multiselect", "options": [
+        "Work-from-home",
+        "On-site",
+        "Solo",
+        "Collaborative",
+        "Corporate Environment",
+        "Fast-paced/Startup Culture",
+        "Creative/Experimental",
+        "Hands-on",
+        "Outdoors",
+        "Client-facing",
+        "Research-driven"
+    ]},
+    "How committed are you to preparing for your future career in terms of learning and training?": {"type": "select", "options": [
+        "Minimal",
+        "Casual",
+        "Moderate",
+        "Dedicated",
+        "Fully Committed"
+    ]},
+    "Which country would you like to work in?": {"type": "country"},
+    "Are you open to relocating or traveling for work?": {"type": "select", "options": [
+        "Open to relocating internationally", 
+        "Open to relocating within country of work", 
+        "Open to short-term relocation", 
+        "Prefer not to relocate", 
+        "Only interested in remote work", 
+        "Prefer minimal or no travel"]},
+    "What is your MBTI personality type?": {"type": "select", "options": [
+        "I Don't Know",
+        "INTJ", 
+        "INTP", 
+        "INFJ", 
+        "INFP", 
+        "ENTJ",
+        "ENTP",
+        "ENFJ",
+        "ENFP",
+        "ISTJ",
+        "ISFJ",
+        "ISTP",
+        "ISFP",
+        "ESTJ",
+        "ESFJ",
+        "ESTP",
+        "ESFP"
+        ]}
+}

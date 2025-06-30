@@ -1,0 +1,21 @@
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.loadingIcon {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.viewCentered {
+    display: flex;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,20 @@
+.authModal {
+  place-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.authBtn {
+  width: 100%;
+}
+
+hr {
+  width: 97.5%;
+  margin: 8px;
+}
+
+h2 {
+    margin-bottom: 16px;
+}

@@ -1,0 +1,74 @@
+.careerOption {
+    margin: 12px 0;
+}
+
+.subBoxContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.subBoxContainer > .box {
+    flex-grow: 1;
+    width: auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+.skillsBox {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.skillsBox > .box {
+    border: none;
+    border-radius: 8px;
+}
+
+.sectionTitle {
+    margin: 0 0 12px 0;
+}
+
+.expandToggle {
+    rotate: 0deg;
+    background-color: transparent;
+    color: white;
+    padding: 6px 0 8px;
+    outline: none;
+    font-size: 0.9rem;
+    width: auto;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+
+.expandToggle > input[type="checkbox"] {
+    display: none;
+}
+
+.expandToggle:has(input:checked) {
+    rotate: 180deg;
+    padding: 8px 0 6px;
+}
+
+.careerOption:has(.expandToggle) > div, .careerOption:has(.expandToggle) > input[type="button"] + hr, .careerOption:has(.expandToggle) > input[type="button"] {
+    display: none;
+}
+
+.careerOption:has(.expandToggle > input:checked) > div, .careerOption:has(.expandToggle > input:checked) > input[type="button"] + hr, .careerOption:has(.expandToggle > input:checked) > input[type="button"] {
+    display: block;
+}
+
+.careerOption:has(.expandToggle > input:checked) > .skillsBox {
+    display: flex;
+}
+
+hr {
+    width: 97.5%;
+    margin: 8px;
+}

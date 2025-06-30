@@ -1,0 +1,13 @@
+.title {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 24px;
+    font-size: 2.5rem;
+}
+
+.tasksTitleBar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+    width: 774px;
+}

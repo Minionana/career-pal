@@ -28,5 +28,5 @@ We're excited to expand Career Pal into a full-featured career growth platform w
 - Personalized mentorship  
 - Career coaching tools  
 
-# How to Run?
-Just go to 
+## How to Run?
+Just go to https://career-pal.vercel.app/ and check it out for yourself!

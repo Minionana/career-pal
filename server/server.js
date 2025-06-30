@@ -75,7 +75,7 @@ app.post('/generate-career', async (req, res) => {
         "https://openrouter.ai/api/v1/chat/completions",
 
         {
-            model: "deepseek/deepseek-r1-0528-qwen3-8b:free",
+            model: "deepseek/deepseek-r1-0528:free", //new model
             messages: [{ role: "user", content: careerPrompt }]
         },
 

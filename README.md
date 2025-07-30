@@ -1,6 +1,6 @@
 ## Problem Statement
 As students, many of us feel **lost and overwhelmed** when it comes to choosing a career. We’re told to figure it out, but rarely shown where to start. The pressure to succeed, paired with a competitive job market, makes it even harder.
-My cofounder, who is an NTU undergraduate, felt this firsthand — unsure of what roles suit me or who to ask for help. That’s when the idea struck: what if we had an AI-powered career mentor that understands our personality, goals, and gives us a clear plan forward?
+My cofounder, who is an NTU undergraduate, felt this firsthand — unsure of what roles suit him or who to ask for help. That’s when the idea struck: what if we had an AI-powered career mentor that understands our personality, goals, and gives us a clear plan forward?
 That’s the heart of **Career Pal** — helping students navigate their career journey with clarity, confidence, and support.
 
 ## Solution
